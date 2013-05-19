@@ -619,14 +619,14 @@ p.moduleListing {
 	text-align: center;
 	background-color: #FFFACD;
 }
-#RESConsoleAboutPanel p {
+.moduleDescription p {
 	margin-bottom: 10px;
 }
-#RESConsoleAboutPanel ul {
+.moduleDescription ul {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
-#RESConsoleAboutPanel li {
+.moduleDescription li {
 	list-style-type: disc;
 	margin-left: 15px;
 }
@@ -640,12 +640,6 @@ p.moduleListing {
 	margin-top: 0;
 	margin-bottom: 10px;
 }
-#DonateRES {
-	display: block;
-}
-#RESTeam {
-	display: none;
-}
 #AboutRESTeamImage {
 	width: 100%;
 	background-color: #000;
@@ -654,12 +648,6 @@ p.moduleListing {
 #AboutRESTeamImage img {
 	display: block;
 	margin: auto;
-}
-#AboutRES {
-	display: none;
-}
-#SearchRES {
-	display: none;
 }
 .outdated {
 	float: right;
