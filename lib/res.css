@@ -166,6 +166,7 @@
 #RESConsoleHeader {
 	width: 100%;
 }
+#RESConsoleHeader h1 { text-transform: lowercase; }
 #RESLogo {
 	margin-right: 5px;
 	float: left;
