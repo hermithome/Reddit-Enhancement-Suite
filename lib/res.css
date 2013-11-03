@@ -259,6 +259,18 @@
 .RESDialogSmall .RESDialogContents, .usertext-edit .RESDialogSmall .md.RESDialogContents {
 	padding: 56px 12px 12px 12px; 
 }
+.RESDialogSmall .buttons li {
+	display: inline-block;
+	border: none;
+	padding-right: 4px;
+	line-height: 1.6em;
+}
+.RESDialogSmall .buttons li + li { padding-left: 4px; }
+.RESDialogSmall .buttons li a {
+	color: #888;
+	font-weight: bold;
+	padding: 0 1px;
+}
 .usertext-edit .RESDialogSmall .md.RESDialogContents {
 	border: none;
 	background-color: white !important;
