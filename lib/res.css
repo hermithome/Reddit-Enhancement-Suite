@@ -230,6 +230,14 @@
 	margin-top: 2px;
 	margin-right: 0;
 }
+.RESDialogContents:after {
+	content: ' ';
+	display: block;
+	clear: both;
+	height: 0;
+	
+}
+
 .RESDialogSmall {
 	background-color: #fff;
 	border: 1px solid #c7c7c7;
